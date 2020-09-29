@@ -45,7 +45,7 @@ const navbar = props => {
             </nav>
 
 
-            <nav className="bg-blue-100 md:hidden">
+            <nav className="bg-blue-100 md:hidden max-w-3/4 ">
                 <div className="flex flex-col justify-between container mx-auto">
                     <div className="flex justify-around px-2 py-4">
                         <Link href="/">
