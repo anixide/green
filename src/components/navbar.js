@@ -88,7 +88,7 @@ const navbar = ({ fixed }) => {
                                 </Link>
                             </li>
                             <li className="my-2 px-3 py-2 text-center items-center font-semibold text-gray-700 hover:text-gray-900">
-                                <Link href="/howItWorks">
+                                <Link href="/how">
                                     How it works
                                 </Link>
                             </li>
