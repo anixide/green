@@ -1,14 +1,13 @@
 import React from "react"
 import Header from "../components/header"
+import How from "./how"
+import Pricing from "./pricing"
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        <h1 className="text-teal-600 text-5xl uppercase hidden">Home</h1>
+    <div className="relative max-h-auto">
         <Header/>
-      </div>
-      
+        <How />
     </div>
   )
 }

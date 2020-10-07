@@ -3,7 +3,7 @@ import '../styles/tailwind.css'
 
 export default function MyApp({ Component, pageProps }) {
   return (
-      <div className="bg-gray-200 h-screen">
+      <div>
         <div className="">
             <Navbar></Navbar>
             <Component {...pageProps} />

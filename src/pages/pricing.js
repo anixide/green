@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const about = () => {
+const pricing = () => {
     return (
-        <div>
-            <h1 className="text-5xl text-orange-600 text-center mb-10">Aroih prv</h1>
+        <div className="h-screen container mx-auto md:max-w-3/4 mt-auto">
+            <h1 className="text-5xl text-orange-600 text-center mb-10">Our Offers</h1>
 
             <div className="flex bg-gray-200 max-w-3/4 mx-auto">
                 <div className="px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-gray-200 shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-green-200 duration-700 ease-in-out ">
@@ -121,4 +121,4 @@ const about = () => {
 }
 
 
-export default about
+export default pricing

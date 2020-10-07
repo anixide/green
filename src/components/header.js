@@ -6,7 +6,7 @@ import HeaderImage from '../components/headerImage'
 
 const header = props => {
     return (
-        <div className=" bg-gray-200">
+        <div className="h-screen">
             <header className="Large_Screen flex flex-col-reverse md:flex-row container mx-auto max-w-3/4 justify-around mt-20">
                 <div className=" md:block  flex flex-col justify-between mr-1">
                     <h1 className="text-5xl font-bold text-gray-700 md:text-4xl lg:text-5xl"> 
