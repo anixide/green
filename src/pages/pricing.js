@@ -3,14 +3,14 @@ import React from 'react'
 
 const pricing = () => {
     return (
-        <section className="bg-blue-200">
+        <section className="pt-24 max-w-3/4 mx-auto border border-black">
 
 
-            <div className="container mx-auto md:max-w-3/4 mt-auto">
+            <div className="max-w-xs container mx-auto mt-auto">
                 <h1 className="text-5xl text-orange-600 text-center mb-10">Our Offers</h1>
 
-                <div className="flex flex-wrap  mx-auto">
-                    <div className="px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-green-200 duration-700 ease-in-out ">
+                <div className="flex flex-col md:flex-row flex-wrap  mx-auto">
+                    <div className="price_card max-w-xs min-w-xs px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-purple-300 duration-700 ease-in-out ">
                         <h2 className="text-base tracking-widest title-font mb-1 font-medium">Sprout</h2>
                         <svg className="mx-auto opacity-25 relative" width="200" height="200" viewBox="0 0 511 511" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
@@ -91,28 +91,29 @@ const pricing = () => {
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Fresh vegetables of your choice.
+                            </span>Fresh vegetables.
                         </p>
                         <p className="flex items-center text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>  <p>Seasonal fruits.</p>
+                            </span>Fresh vegetables.
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>
+                            </span>Fresh vegetables.
                         </p>
+ 
                         <button className="w-48 mx-1 mt-24 px-1 py-2 text-center cursor-pointer rounded-lg bg-green-500 hover:bg-green-400 text-gray-100 font-semibold">
                             Get started
                         </button>
                     </div>
                     
-                    <div className="px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-green-200 duration-700 ease-in-out ">
+                    <div className="price_card max-w-xs min-w-xs px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-purple-300 duration-700 ease-in-out ">
                         <h2 className="text-base tracking-widest title-font mb-1 font-medium">Tree</h2>
                         <svg className="mx-auto opacity-25 relative" width="200" height="200" viewBox="0 0 511 511" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
@@ -188,33 +189,34 @@ const pricing = () => {
     </svg>
 
                         <h1 className="text-5xl text-gray-600 mt-1 pb-4 mb-4 border-b border-green-600 leading-none">9.99$</h1>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Fresh vegetables of your choice.
+                            </span>Fresh vegetables.
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>  <p>Seasonal fruits.</p>
+                            </span>Fresh vegetables.
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>
+                            </span>Fresh vegetables.
                         </p>
+
                         <button className="w-48 mx-1 mt-24 px-1 py-2 text-center cursor-pointer rounded-lg bg-green-500 hover:bg-green-400 text-gray-100 font-semibold">
                             Get started
                         </button>
                     </div>
                     
-                    <div className="px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-green-200 duration-700 ease-in-out ">
+                    <div className="price_card max-w-xs min-w-xs px-4 py-2 m-2 cursor-pointer flex-1 rounded-lg text-gray-700 text-center bg-white shadow-inner shadow-lg hover:border-current border hover:border-green-600 hover:shadow-2xl hover:bg-purple-300 duration-700 ease-in-out ">
                         <h2 className="text-base tracking-widest title-font mb-1 font-medium">Forest</h2>
                         <svg className="mx-auto opacity-25 relative" width="200" height="200" viewBox="0 0 511 511" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
@@ -290,27 +292,29 @@ const pricing = () => {
     </svg>
 
                         <h1 className="text-5xl text-gray-600 mt-1 pb-4 mb-4 border-b border-green-600 leading-none">9.99$</h1>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>Fresh vegetables of your choice.
+                            </span>Fresh vegetables.
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>  <p>Seasonal fruits.</p>
+                            </span>Fresh vegetables.
                         </p>
-                        <p className="flex items-center text-gray-600 mb-2">
+                        <p className="flex text-gray-600 mb-2">
                             <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                 <path d="M20 6L9 17l-5-5"></path>
                             </svg>
-                            </span>
+                            </span>Fresh vegetables.
                         </p>
+
+
                         <button className="w-48 mx-1 mt-24 px-1 py-2 text-center cursor-pointer rounded-lg bg-green-500 hover:bg-green-400 text-gray-100 font-semibold">
                             Get started
                         </button>

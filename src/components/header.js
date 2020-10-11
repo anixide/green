@@ -6,8 +6,8 @@ import HeaderImage from '../components/headerImage'
 
 const header = props => {
     return (
-        <div className="mb-64">
-            <header className="Large_Screen flex flex-col-reverse md:flex-row container mx-auto max-w-3/4 justify-around mt-20">
+        <div className="pb-48 pt-24 border-black border">
+            <header className="Large_Screen flex flex-col-reverse md:flex-row container mx-auto justify-around pt-20 mt-2 max-w-3/4 mx-auto">
                 <div className=" md:block  flex flex-col justify-between mr-1">
                     <h1 className="text-5xl font-bold text-gray-700 md:text-4xl lg:text-5xl"> 
                     <span className="text-green-400">Fresh</span> vegetables delivered to your doorstep</h1>

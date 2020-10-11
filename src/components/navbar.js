@@ -6,8 +6,9 @@ import Link from 'next/link'
 const navbar = ({ fixed }) => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        
-        <div className="bg-blue-100 shadow-lg">
+        <section className="bg-blue-100 shadow-lg  fixed w-full z-50">
+            
+        <div className="bg-blue-100 md:max-w-3/4 mx-auto">
             <nav className="bg-blue-100 hidden md:block">
                 <div className="flex justify-between max-w-md container mx-auto">
                     <div className="px-2 py-4 cursor-pointer">
@@ -111,6 +112,8 @@ const navbar = ({ fixed }) => {
 
 
         </div>
+
+        </section>
     )
 }
 
