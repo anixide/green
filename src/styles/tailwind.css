@@ -6,4 +6,15 @@ h1, h2, p {
     font-family: 'Poppins', sans-serif;
 }
 
+@layer utilities {
+    @variants hover, focus {
+      .filter-none {
+        filter: none;
+      }
+      .filter-blur {
+        filter: blur(1px);
+      }
+    }
+  }
+
 @tailwind utilities;
