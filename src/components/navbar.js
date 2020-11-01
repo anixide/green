@@ -38,7 +38,7 @@ const navbar = ({ fixed }) => {
                             </Link>
                         </li>
                         <li className="mx-4 my-2 px-6 py-2 text-center items-center cursor-pointer rounded-lg bg-green-500 hover:bg-green-400 text-gray-100 font-semibold ">
-                            <Link href="/startNow">
+                            <Link href="/login">
                                 Start now
                             </Link>
                         </li>

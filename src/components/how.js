@@ -2,7 +2,7 @@ import React from 'react'
 
 const how = () => {
     return (
-        <section className="pt-24 pb-24 container mx-auto md:max-w-1/2 border border-black">
+        <section className="pt-24 pb-24 container mx-auto md:max-w-1/2">
             <div className="flex flex-col items-center space-y-6">
                 <h1 className="self-center text-5xl text-gray-700 font-bold text-center mt-10">How It Works</h1>
                 <p className="self-center max-w-3/4 text-center text-lg text-gray-700 font-light">Our goal is to make sure you always have everything you need to look, feel, and smell your best. Here’s how it all goes down:</p>

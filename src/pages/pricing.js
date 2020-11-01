@@ -3,7 +3,7 @@ import React from 'react'
 
 const pricing = () => {
     return (
-        <section className="pt-24 max-w-3/4 mx-auto border border-black">
+        <section className="pt-24 max-w-3/4 mx-auto">
 
 
             <div className="max-w-xs container mx-auto mt-auto">
